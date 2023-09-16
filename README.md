@@ -1,7 +1,7 @@
 # Smart Car Parking STM32
 
 A Smart Car Parking system implemented on an STM32 microcontroller. This system allows admin users to manage allowed IDs for entrance, monitors available parking slots, and controls access using RFID cards, a servo motor, and a PIR sensor.
-
+  
 ## Table of Contents
 
 - [Hardware Requirements](#hardware-requirements)
@@ -9,8 +9,9 @@ A Smart Car Parking system implemented on an STM32 microcontroller. This system 
 - [Key Features](#key-features)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
+- [Simulation video](#simulation-video)
 
-
+  
 ## Hardware Requirements
 
 - STM32 microcontroller 
@@ -20,14 +21,14 @@ A Smart Car Parking system implemented on an STM32 microcontroller. This system 
 - Servo motors
 - PIR sensor
 - RFID cards
-
+  
 ## Software Requirements
 
 - STM32CubeIDE or STM32CubeMX for firmware development
 - MCAL and HAL Drivers for STM32
 - Proteus
 
-
+  
 ## Key Features
 
 1. **Admin Control:**
@@ -50,7 +51,7 @@ A Smart Car Parking system implemented on an STM32 microcontroller. This system 
 5. **Automatic Slot Management:**
    - The system automatically updates the number of available parking slots based on entries and exits.
    - Slots are decremented when someone enters and incremented when someone exits.
-
+  
 
 
 ## Project Structure
@@ -61,11 +62,15 @@ A Smart Car Parking system implemented on an STM32 microcontroller. This system 
 - **MCAL Layer:** (GPIO, RCC, USART, TIMER, Device header file).
 - **Simulation File:** (Proteus)
 - **README.md:** This file.
-
-
+  
+  
 ## Getting Started
 
 1. Clone this repository to your local development environment.
 2. Set up the development environment using STM32CubeIDE or STM32CubeMX.
 3. Configure the necessary peripherals, pins, and interrupts based on your hardware setup.
 4. Integrate required libraries for components like the LCD, RFID reader, and servo motor.
+
+  
+## Simulation video
+https://github.com/bahrawyyy/SmartCarParking/assets/71684437/4c6dc077-262e-49e5-9dbb-0f707217559c
