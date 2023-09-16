@@ -1,0 +1,3 @@
+Stm32_F103C6_TIMER_driver.c:13:6:TIMER2_Init	4	static
+Stm32_F103C6_TIMER_driver.c:41:6:Delay_us	16	static
+Stm32_F103C6_TIMER_driver.c:49:6:Delay_ms	24	static
